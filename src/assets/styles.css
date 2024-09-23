@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #6c63ff; /* Nowoczesny fiolet */
+    --secondary-color: #ff6f61; /* Trendy koralowy */
+    --background-color: #f4f4f4; /* Jasny szary */
+    --card-background: #ffffff; /* Biały */
+    --text-color: #333333; /* Ciemny szary */
+    --button-hover-color: #5a5a5a; /* Szary dla hover */
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .product {
+    background: var(--card-background);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1rem;
+    width: 250px;
+    transition: transform 0.3s;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  .product img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+  
+  .product p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .product button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .product button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .cart, .checkout {
+    padding: 2rem;
+    background: var(--card-background);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart h2, .checkout h2 {
+    margin-top: 0;
+  }
+  
+  .cart-item, .product, .checkout-form {
+    margin-bottom: 1rem;
+  }
+  
+  .checkout-form button, .cart button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-form button:hover, .cart button:hover {
+    background-color: var(--secondary-color);
+  }
+  
