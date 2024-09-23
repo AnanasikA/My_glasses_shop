@@ -2,7 +2,7 @@
   "name": "my-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ananasik.github.io/My_glasses_shop",
+  "homepage": "https://ananasika.github.io/My_glasses_shop",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@stripe/react-stripe-js": "^2.8.0",
